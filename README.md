@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ### Run the server
 ```
-uvicorn src.main:app --reload
+uvicorn --host 0.0.0.0 src.main:app --reload
 ```
 
 To view the swagger documentation navigate to the ipaddress of the server 
