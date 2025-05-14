@@ -3,3 +3,9 @@ uvicorn
 pydantic
 pytest
 httpx
+sentence_transformers
+pandas
+numpy
+sklearn
+pickle
+os
