@@ -12,11 +12,12 @@ def test_get_similar_responses():
     
     result = get_similar_responses(question = q, top_k=5)
     
-    # Ensure that the length of the response is 10
+    # Ensure that the length of the response is 5
     assert len(result) == 5
     
     # Ensure that the result is a list
     assert isinstance(result, list)
+
     
 
 
