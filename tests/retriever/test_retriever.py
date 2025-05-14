@@ -6,9 +6,17 @@ def test_get_similar_responses():
     
     
     q = "What is the capital of France?"
-    # Assert that the top 5 responses are returned
+    
+    
+    # Tests for the retriever
+    
     result = get_similar_responses(question = q, top_k=5)
+    
+    # Ensure that the length of the response is 10
     assert len(result) == 5
+    
+    # Ensure that the result is a list
+    assert isinstance(result, list)
     
 
 
